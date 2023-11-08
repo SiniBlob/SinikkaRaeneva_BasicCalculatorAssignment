@@ -55,6 +55,10 @@ namespace BasicCalculatorAssignment
                     case 4:
                         Divide();
                         break;
+
+                    default:
+                        Console.WriteLine("Invalid option");
+                        break;
                 }
                 // Task 6.1 For each case create new function/method an call it inside the case
                 //          - Case 1: Add 
